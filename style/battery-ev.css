@@ -1,0 +1,112 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #EAEAEA; /* Light text */
+    text-align: center;
+}
+
+/* Header Styling */
+.header {
+    background-color: #1F1F1F; /* Deep dark shade */
+    color: #00E6E6; /* Electric blue */
+    padding: 20px;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+/* Navigation Styling */
+.nav {
+    margin-top: 10px;
+}
+
+.nav a {
+    color: #00ADB5; /* Teal blue accent */
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #00E6E6;
+}
+
+/* Content Styling */
+.content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1E1E1E; /* Dark card background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 2px solid #333; /* Subtle divider */
+}
+
+/* Image Styling */
+.section-img {
+    width: 100%;
+    max-width: 600px;
+    max-height: 700px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* List Styling */
+.benefits-list li, .challenges-list li {
+    text-align: left;
+    margin: 10px 0;
+    font-size: 1.1em;
+    padding-left: 10px;
+}
+
+/* Car Grid */
+.car-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Car Card Styling */
+.car-card {
+    width: 180px;
+    background: #1E1E1E; /* Dark card */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out, background 0.3s;
+}
+
+.car-card p {
+    color: #00ADB5; /* Electric blue text */
+    font-weight: bold;
+}
+
+.car-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.car-card:hover {
+    transform: scale(1.05);
+    background: #2A2D34; /* Slightly lighter for hover effect */
+}
