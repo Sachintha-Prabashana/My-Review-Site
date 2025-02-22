@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #0c81a6;
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    /* background-color: #0c81a6; */
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ffb300;
+    color: #121212;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #ffa000;
+}
+
+/* EV Cards */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.ev-card {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); */
+    text-align: center;
+    width: 250px;
+}
+
+.ev-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.ev-card h3 {
+    margin-top: 10px;
+    color: #0c81a6;
+}
+
+/* Care Section */
+.care-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0c81a6;
+    color: white;
+}
+
+.footer a {
+    color: #ffb300;
+    text-decoration: none;
+}

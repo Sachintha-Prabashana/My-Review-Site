@@ -3,14 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to EVera</title>
-    <link rel="stylesheet" href="/style/home-page-style.css">
+    <title>EVera – Your Guide to the Electric Future</title>
+    <link rel="stylesheet" href="/style/main-layout.css">
 </head>
-<body>
-    <div class="intro-container">
-        <h1 class="fade-in">Welcome to <span>EVera</span></h1>
-        <p class="fade-in delay">Your Guide to the Electric Future</p>
-        <a href="/pages/ev-types.html" class="enter-button fade-in delay2">Enter</a>
+<body class="body">
+    <header class="header">
+        <h1>EVera</h1>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#vehicles">Vehicles</a>
+            <a href="#care">Care</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Welcome to EVera</h2>
+        <p>Your ultimate guide to electric mobility. Explore different types of electric vehicles and make the right choice for a sustainable future.</p>
+        <a href="/pages/vehicles.html" class="cta-button">Explore Vehicles</a>
+    </section>
+    
+    <div id="vehicles" class="container">
+        <div class="ev-card">
+            <a href="/pages/battery-ev.html"><img src="/assets/image/tesla-model-3 .png" alt="Tesla Model 3 - BEV"></a>
+            <h3>Battery Electric Vehicles (BEVs)</h3>
+        </div>
+        <div class="ev-card">
+            <a href="/pages/plug-in-ev.html"><img src="/assets/image/Toyota-RAV4-Prime.png" alt="Toyota RAV4 Prime - PHEV"></a>
+            <h3>Plug-in Hybrid Electric Vehicles (PHEVs)</h3>
+        </div>
+        <div class="ev-card">
+            <a href="/pages/hybrid-ev.html"><img src="/assets/image/Ford_Escape_Hybrid-removebg-preview.png" alt="Ford Escape Hybrid - HEV"></a>
+            <h3>Hybrid Electric Vehicles (HEVs)</h3>
+        </div>
+        <div class="ev-card">
+            <a href="/pages/fuel-cell-ev.html"><img src="/assets/image/Toyota-Mirai.png" alt="Toyota Mirai - FCEV"></a>
+            <h3>Fuel Cell Electric Vehicles (FCEVs)</h3>
+        </div>
     </div>
+    
+    <section id="care" class="care-section">
+        <h2>EV Care & Maintenance</h2>
+        <p>Learn how to maintain your electric vehicle for maximum efficiency and lifespan.</p>
+        <a href="/pages/ev-care.html" class="cta-button">Learn More</a>
+    </section>
+    
+    <footer id="contact" class="footer">
+        <p>Contact us at <a href="mailto:info@evera.com">info@evera.com</a></p>
+        <p>Follow us on <a href="#">Social Media</a></p>
+    </footer>
 </body>
 </html>
