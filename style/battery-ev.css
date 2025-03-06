@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 /* General Styles */
-
 * {
     margin: 0;
     padding: 0;
@@ -11,70 +10,70 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #121212; /* Dark background */
-    color: #EAEAEA; /* Light text */
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333; /* Dark text for readability */
     text-align: center;
+    padding-bottom: 40px;
 }
 
-/* Header Styling */
+/* Header */
 .header {
-    background-color: #1F1F1F; /* Deep dark shade */
-    color: #00E6E6; /* Electric blue */
+    background-color: #007bff; /* Blue header */
+    color: white;
     padding: 20px;
     font-size: 1.8em;
     font-weight: 600;
 }
 
-/* Navigation Styling */
-.nav {
-    margin-top: 10px;
-}
-
-.nav a {
-    color: #00ADB5; /* Teal blue accent */
-    text-decoration: none;
-    font-weight: 600;
-    margin: 0 15px;
-    transition: color 0.3s ease;
-}
-
-.nav a:hover {
-    color: #00E6E6;
-}
-
-/* Content Styling */
+/* Main Content */
 .content {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
-    background: #1E1E1E; /* Dark card background */
+    background: white;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Styling */
+/* Sections */
 .section {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding: 20px;
-    border-bottom: 2px solid #333; /* Subtle divider */
+    border-bottom: 2px solid #ddd;
 }
 
-/* Image Styling */
-.section-img {
+.section h2 {
+    font-size: 1.8em;
+    color: #007bff; /* Blue headings */
+    margin-bottom: 15px;
+}
+
+/* Images */
+.section-img, .structure-img {
     width: 100%;
     max-width: 600px;
-    max-height: 700px;
     object-fit: cover;
     border-radius: 8px;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 
-/* List Styling */
-.benefits-list li, .challenges-list li {
+/* Lists */
+.benefits-list, .challenges-list {
+    list-style: none;
     text-align: left;
-    margin: 10px 0;
+    display: inline-block;
+    width: 90%;
+    max-width: 700px;
+    margin-top: 15px;
+}
+
+.benefits-list li, .challenges-list li {
     font-size: 1.1em;
-    padding-left: 10px;
+    padding: 10px;
+    background: #e3f2fd; /* Light blue background */
+    margin-bottom: 10px;
+    /* border-left: 5px solid #007bff; */
+    border-radius: 5px;
 }
 
 /* Car Grid */
@@ -86,19 +85,16 @@ body {
     margin-top: 20px;
 }
 
-/* Car Card Styling */
+/* Car Cards */
 .car-card {
+    display: inline-block;
     width: 180px;
-    background: #1E1E1E; /* Dark card */
-    padding: 10px;
+    /* height: 200px; */
+    background: white;
+    padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
-    transition: transform 0.3s ease-in-out, background 0.3s;
-}
-
-.car-card p {
-    color: #00ADB5; /* Electric blue text */
-    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
 }
 
 .car-card img {
@@ -106,7 +102,29 @@ body {
     border-radius: 10px;
 }
 
-.car-card:hover {
-    transform: scale(1.05);
-    background: #2A2D34; /* Slightly lighter for hover effect */
+.car-card p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* CTA Button */
+.cta-container {
+    margin-top: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    font-size: 1em;
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Darker blue */
 }
