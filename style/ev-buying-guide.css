@@ -1,0 +1,216 @@
+/* EV Buying Guide CSS */
+
+/* Base Styles & Variables (matching main-layout.css patterns) */
+:root {
+    --primary-color: #0984e3;
+    --primary-dark: #0766ac;
+    --secondary-color: #00b894;
+    --accent-color: #fd79a8;
+    --dark-color: #2d3436;
+    --light-color: #f5f6fa;
+    --gray-color: #636e72;
+    --light-gray: #dfe6e9;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+    --border-radius: 8px;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+  }
+  
+  /* Typography */
+  h1 {
+    color: var(--primary-color);
+    text-align: center;
+    border-bottom: 3px solid var(--primary-color);
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  h2 {
+    color: var(--primary-color);
+    border-left: 4px solid var(--primary-color);
+    padding-left: 12px;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  p, ul, li {
+    margin-bottom: 1rem;
+  }
+  
+  /* Card Styling */
+  .ev-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+  }
+  
+  .ev-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ev-card p {
+    color: var(--primary-dark);
+  }
+  
+  /* Consideration Sections */
+  .consideration {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 20px;
+    margin-bottom: 35px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+  }
+  
+  .consideration:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Lists */
+  ul {
+    padding-left: 20px;
+    list-style: none;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 22px;
+  }
+  
+  ul li:before {
+    content: "•";
+    color: var(--primary-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Highlight Text */
+  .highlight {
+    background-color: var(--light-gray);
+    color: var(--primary-dark);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: var(--transition);
+  }
+  
+  .highlight:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  /* Image Styling */
+  .image-placeholder {
+    background-color: var(--light-gray);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+  }
+  
+  .image-placeholder:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .image-placeholder img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: var(--transition);
+  }
+  
+  .image-placeholder:hover img {
+    transform: scale(1.02);
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--gray-color);
+    padding: 15px;
+    border-top: 1px solid var(--light-gray);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    body {
+      padding: 15px;
+    }
+    
+    h1 {
+      font-size: 1.8rem;
+    }
+    
+    h2 {
+      font-size: 1.3rem;
+    }
+    
+    .consideration {
+      padding: 15px;
+    }
+  }
+  
+  /* Print Styles */
+  @media print {
+    body {
+      max-width: 100%;
+      padding: 0;
+      font-size: 12pt;
+      background-color: white;
+    }
+    
+    .consideration {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      box-shadow: none;
+      border: 1px solid var(--light-gray);
+      background-color: white;
+    }
+    
+    .image-placeholder {
+      max-height: 300px;
+    }
+    
+    h1 {
+      font-size: 18pt;
+    }
+    
+    h2 {
+      font-size: 14pt;
+    }
+    
+    .ev-card, .consideration {
+      transform: none !important;
+      box-shadow: none !important;
+    }
+  }

@@ -3,55 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EVera – Your Guide to the Electric Future</title>
+    <title>EVera - Your Guide to the Electric Future</title>
     <link rel="stylesheet" href="/style/main-layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body class="body">
     <header class="header">
-        <h1>EVera</h1>
+        <div class="logo-container">
+            <h1>EVera</h1>
+            <span class="tagline">Electrify Your Journey</span>
+        </div>
         <nav class="nav">
-            <a href="#">Home</a>
-            <a href="#vehicles">Vehicles</a>
-            <a href="#care">Care</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#" class="active"><i class="fas fa-home"></i> Home</a>
+            <a href="#vehicles"><i class="fas fa-car-side"></i> Vehicles</a>
+            <a href="#care"><i class="fas fa-tools"></i> Care</a>
+            <a href="#ev-topics"><i class="fas fa-book"></i> EV Topics</a>
+            <a href="#about"><i class="fas fa-info-circle"></i> About</a>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
         </nav>
     </header>
     
     <section class="hero">
-        <h2>Welcome to EVera</h2>
-        <p>Your ultimate guide to electric mobility. Explore different types of electric vehicles and make the right choice for a sustainable future.</p>
-        <a href="/pages/vehicles.html" class="cta-button">Explore Vehicles</a>
+        <div class="hero-content">
+            <h2>Welcome to EVera</h2>
+            <p>Your ultimate guide to electric mobility. Explore different types of electric vehicles and make the right choice for a sustainable future.</p>
+            <div class="hero-buttons">
+                <a href="/pages/vehicles.html" class="cta-button primary">Explore Vehicles</a>
+                <a href="/pages//ev-buying-guide.html" class="cta-button secondary">EV Buying Guide</a>
+            </div>
+        </div>
     </section>
     
-    <div id="vehicles" class="container">
-        <div class="ev-card">
-            <a href="/pages/battery-ev.html"><img src="/assets/image/tesla-model-3 .png" alt="Tesla Model 3 - BEV"></a>
-            <h3>Battery Electric Vehicles (BEVs)</h3>
+    <section id="vehicles" class="vehicles-section">
+        <h2 class="section-title">Types of Electric Vehicles</h2>
+        <p class="section-description">Discover the full spectrum of electric vehicle technologies</p>
+        
+        <div class="container">
+            <div class="ev-card">
+                <a href="/pages/battery-ev.html">
+                    <div class="image-container">
+                        <img src="/assets/image/tesla-model-3.png" alt="Tesla Model 3 - BEV">
+                    </div>
+                    <h3>Battery Electric Vehicles (BEVs)</h3>
+                    <p>100% electric vehicles powered solely by rechargeable batteries with no gasoline engine.</p>
+                </a>
+            </div>
+            
+            <div class="ev-card">
+                <a href="/pages/plug-in-ev.html">
+                    <div class="image-container">
+                        <img src="/assets/image/Toyota-RAV4-Prime.png" alt="Toyota RAV4 Prime - PHEV">
+                    </div>
+                    <h3>Plug-in Hybrid Electric Vehicles (PHEVs)</h3>
+                    <p>Vehicles with both electric motors and gas engines that can be plugged in to recharge.</p>
+                </a>
+            </div>
+            
+            <div class="ev-card">
+                <a href="/pages/hybrid-ev.html">
+                    <div class="image-container">
+                        <img src="/assets/image/Ford Escape Hybrid - HEV.png" alt="Ford Escape Hybrid - HEV">
+                    </div>
+                    <h3>Hybrid Electric Vehicles (HEVs)</h3>
+                    <p>Vehicles that combine a conventional engine with an electric motor to improve efficiency.</p>
+                </a>
+            </div>
+            
+            <div class="ev-card">
+                <a href="/pages/fuel-cell-ev.html">
+                    <div class="image-container">
+                        <img src="/assets/image/Toyota-Mirai.png" alt="Toyota Mirai - FCEV">
+                    </div>
+                    <h3>Fuel Cell Electric Vehicles (FCEVs)</h3>
+                    <p>Vehicles powered by hydrogen fuel cells that generate electricity, emitting only water vapor.</p>
+                </a>
+            </div>
         </div>
-        <div class="ev-card">
-            <a href="/pages/plug-in-ev.html"><img src="/assets/image/Toyota-RAV4-Prime.png" alt="Toyota RAV4 Prime - PHEV"></a>
-            <h3>Plug-in Hybrid Electric Vehicles (PHEVs)</h3>
-        </div>
-        <div class="ev-card">
-            <a href="/pages/hybrid-ev.html"><img src="/assets/image/Ford_Escape_Hybrid-removebg-preview.png" alt="Ford Escape Hybrid - HEV"></a>
-            <h3>Hybrid Electric Vehicles (HEVs)</h3>
-        </div>
-        <div class="ev-card">
-            <a href="/pages/fuel-cell-ev.html"><img src="/assets/image/Toyota-Mirai.png" alt="Toyota Mirai - FCEV"></a>
-            <h3>Fuel Cell Electric Vehicles (FCEVs)</h3>
-        </div>
-    </div>
+    </section>
     
     <section id="care" class="care-section">
-        <h2>EV Care & Maintenance</h2>
-        <p>Learn how to maintain your electric vehicle for maximum efficiency and lifespan.</p>
-        <a href="/pages/ev-care.html" class="cta-button">Learn More</a>
+        <div class="section-content">
+            <h2>EV Care & Maintenance</h2>
+            <p>Learn how to maintain your electric vehicle for maximum efficiency and lifespan. Our guides cover battery health, charging best practices, software updates, and more.</p>
+            <div class="care-features">
+                <div class="care-feature">
+                    <i class="fas fa-battery-full"></i>
+                    <h4>Battery Health</h4>
+                </div>
+                <div class="care-feature">
+                    <i class="fas fa-plug"></i>
+                    <h4>Charging Tips</h4>
+                </div>
+                <div class="care-feature">
+                    <i class="fas fa-wrench"></i>
+                    <h4>Maintenance</h4>
+                </div>
+            </div>
+            <a href="/pages/ev-care.html" class="cta-button">Learn More</a>
+        </div>
+    </section>
+    
+    <section id="ev-topics" class="ev-topics-section">
+        <h2>EV Topics</h2>
+        <p>Discover key information about electric vehicles, from history to the future.</p>
+        
+        <div class="topics-grid">
+            <div class="topic-card">
+                <i class="fas fa-history"></i>
+                <h3>EV History</h3>
+                <p>The fascinating evolution of electric vehicles through time.</p>
+            </div>
+            <div class="topic-card">
+                <i class="fas fa-charging-station"></i>
+                <h3>Charging Infrastructure</h3>
+                <p>Understanding the charging network and future expansion.</p>
+            </div>
+            <div class="topic-card">
+                <i class="fas fa-leaf"></i>
+                <h3>Environmental Impact</h3>
+                <p>How EVs contribute to a cleaner planet.</p>
+            </div>
+            <div class="topic-card">
+                <i class="fas fa-microchip"></i>
+                <h3>EV Technology</h3>
+                <p>Innovations driving the electric revolution.</p>
+            </div>
+        </div>
+        
+        <a href="/pages/ev-topics.html" class="cta-button">Explore All Topics</a>
+    </section>
+    
+    <section id="about" class="about-section">
+        <h2>About EVera</h2>
+        <p>EVera is dedicated to providing accurate, up-to-date information about electric vehicles to help consumers make informed decisions. Our team of EV enthusiasts and experts is passionate about accelerating the transition to sustainable transportation.</p>
     </section>
     
     <footer id="contact" class="footer">
-        <p>Contact us at <a href="mailto:info@evera.com">info@evera.com</a></p>
-        <p>Follow us on <a href="#">Social Media</a></p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@evera.com">info@evera.com</a></p>
+                <p><i class="fas fa-phone"></i> (+94) 76 271 290</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/pages/faq.html">FAQ</a></li>
+                    <li><a href="/pages/privacy.html">Privacy Policy</a></li>
+                    <li><a href="/pages/terms.html">Terms of Service</a></li>
+                    <li><a href="/pages/sitemap.html">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 EVera. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>

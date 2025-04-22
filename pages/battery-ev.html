@@ -3,93 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Battery EVs</title>
-    <link rel="stylesheet" href="/style/battery-ev.css">
+    <title>Battery Electric Vehicles (BEVs) | EVera</title>
+    <link rel="stylesheet" href="/style/article.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body>
-    <header class="header">
-        <h1>Battery Electric Vehicles (BEVs)</h1>
+<body class="bev-theme">
+    <header class="ev-header">
+        <div class="container">
+            <h1>Battery Electric Vehicles (BEVs)</h1>
+            <p>100% electric vehicles powered solely by rechargeable battery packs with no gasoline engine</p>
+        </div>
     </header>
 
-    <main class="content">
-        <!-- Introduction Section -->
-        <section class="section">
-            <h2>Introduction</h2>
-            <img src="/assets/image/charging-station-bevs.jpg" alt="Battery Electric Vehicle" class="section-img">
-            <p>
-                <strong>Battery Electric Vehicles (BEVs)</strong> are fully electric vehicles that rely entirely on rechargeable 
-                <strong>lithium-ion battery packs</strong> to power an electric motor. Unlike hybrid or plug-in hybrid vehicles, 
-                BEVs do not have an internal combustion engine (ICE), making them <strong>zero-emission vehicles</strong>.
-            </p>
+    <main class="container">
+        <section class="ev-content">
+            <div>
+                <img src="/assets/image/structure-BEVs.png" alt="Battery Electric Vehicle" class="ev-image">
+            </div>
+            <div class="ev-details">
+                <h2>Pure Electric Power</h2>
+                <p>BEVs are fully electric vehicles that use large battery packs to power electric motors. They produce zero tailpipe emissions and are the most environmentally friendly option among electric vehicles.</p>
+                
+                <div class="ev-specs">
+                    <h3>Key Specifications</h3>
+                    <div class="spec-grid">
+                        <div class="spec-item">
+                            <strong>Power Source:</strong> Large rechargeable battery pack
+                        </div>
+                        <div class="spec-item">
+                            <strong>Range:</strong> 150-400+ miles per charge
+                        </div>
+                        <div class="spec-item">
+                            <strong>Charging Time:</strong> 30 min (fast) to 12+ hours (home)
+                        </div>
+                        <div class="spec-item">
+                            <strong>Emissions:</strong> Zero tailpipe emissions
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <!-- How BEVs Work Section -->
-        <section class="section">
-            <h2>How Do BEVs Work?</h2>
-            <img src="/assets/image/structure-BEVs.png" alt="How BEVs Work" class="structure-img">
-            <p>
-                BEVs operate by storing electricity in high-capacity battery packs, which power an electric motor 
-                to drive the vehicle. The batteries can be charged using <strong>home chargers, public stations, or fast chargers</strong>. 
-                BEVs are highly efficient and <strong>cheaper to run</strong> than gasoline-powered cars.
-            </p>
+        <section class="pros-cons">
+            <div class="pros">
+                <h3><i class="fas fa-check-circle"></i> Advantages</h3>
+                <ul>
+                    <li>Zero tailpipe emissions</li>
+                    <li>Lower operating costs (electricity vs. gas)</li>
+                    <li>Quieter operation</li>
+                    <li>Fewer moving parts means less maintenance</li>
+                    <li>Access to HOV lanes in some areas</li>
+                    <li>Potential tax incentives</li>
+                </ul>
+            </div>
+            <div class="cons">
+                <h3><i class="fas fa-exclamation-triangle"></i> Challenges</h3>
+                <ul>
+                    <li>Higher upfront cost</li>
+                    <li>Limited charging infrastructure in some areas</li>
+                    <li>Longer refueling time compared to gas vehicles</li>
+                    <li>Range anxiety for some drivers</li>
+                    <li>Battery degradation over time</li>
+                </ul>
+            </div>
         </section>
 
-        <!-- Benefits Section -->
-        <section class="section">
-            <h2>Benefits of BEVs</h2>
-            <ul class="benefits-list">
-                <li><strong>Zero Emissions:</strong> No tailpipe pollution, reducing environmental impact.</li>
-                <li><strong>Lower Running Costs:</strong> Electricity is cheaper than gasoline, and BEVs require less maintenance.</li>
-                <li><strong>Quiet & Smooth Ride:</strong> Electric motors provide instant torque and a silent driving experience.</li>
-                <li><strong>Government Incentives:</strong> Tax credits, rebates, and charging station subsidies.</li>
-                <li><strong>Energy Independence:</strong> Reduces reliance on fossil fuels by utilizing renewable energy sources.</li>
-            </ul>
+        <section class="popular-models">
+            <h2>Popular BEV Models</h2>
+            <div class="model-cards">
+                <div class="model-card">
+                    <img src="/assets/image/tesla-model-3.png" alt="Tesla Model 3">
+                    <div class="model-info">
+                        <h3>Tesla Model 3</h3>
+                        <div class="model-specs">
+                            <span>Range: 267-358 mi</span>
+                            <span>0-60: 3.1-5.8s</span>
+                        </div>
+                        <p>The most popular electric sedan with impressive range and performance.</p>
+                    </div>
+                </div>
+                <div class="model-card">
+                    <img src="/assets/image/ford-mustand-mach-e.png" alt="Ford Mustang Mach-E">
+                    <div class="model-info">
+                        <h3>Ford Mustang Mach-E</h3>
+                        <div class="model-specs">
+                            <span>Range: 224-314 mi</span>
+                            <span>0-60: 3.5-6.1s</span>
+                        </div>
+                        <p>Ford's electric SUV with Mustang-inspired styling.</p>
+                    </div>
+                </div>
+                <div class="model-card">
+                    <img src="/assets/image/Chevrolet-Bolt-EV.png" alt="Chevrolet Bolt EV">
+                    <div class="model-info">
+                        <h3>Chevrolet Bolt EV</h3>
+                        <div class="model-specs">
+                            <span>Range: 259 mi</span>
+                            <span>0-60: 6.5s</span>
+                        </div>
+                        <p>Affordable compact EV with impressive range.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <!-- Challenges Section -->
-        <section class="section">
-            <h2>Challenges of BEVs</h2>
-            <ul class="challenges-list">
-                <li><strong>Charging Infrastructure:</strong> Availability of public chargers varies by location.</li>
-                <li><strong>Charging Time:</strong> While fast chargers exist, full charging takes longer than refueling gas.</li>
-                <li><strong>Initial Cost:</strong> BEVs have a higher upfront cost but provide long-term savings.</li>
-                <li><strong>Battery Degradation:</strong> Over time, battery capacity may decrease, but modern EVs offer long warranties.</li>
-            </ul>
+        <section class="cta-section">
+            <h2>Ready to Go Electric?</h2>
+            <p>Explore our buying guide to find the perfect BEV for your needs and lifestyle.</p>
+            <div class="cta-buttons">
+                <a href="/pages/ev-buying-guide.html" class="btn btn-primary">EV Buying Guide</a>
+                <a href="/pages/vehicles.html" class="btn btn-secondary">View All EV Types</a>
+            </div>
         </section>
-
-        <!-- Popular BEVs Section -->
-        <section class="section">
-            <h2>Popular BEVs</h2>
-            <div class="car-card">
-                <!-- Tesla Model 3 -->
-                <img src="/assets/image/tesla-model-3.png" alt="Tesla Model 3">
-                <p>Tesla Model 3</p>
-            </div>
-            <!-- Ford Mustang Mach-E -->
-            <div class="car-card">
-                <img src="/assets/image/ford-mustand-mach-e.png" alt="Ford Mustang Mach-E">
-                <p>Ford Mustang Mach-E</p>
-            </div>
-            <!-- Hyundai Ioniq 5 -->
-            <div class="car-card">
-                <img src="/assets/image/Hyundai-Ioniq 5.png" alt="Hyundai Ioniq 5">
-                <p>Hyundai Ioniq 5</p>
-            </div>
-            <!-- Nissan Leaf -->
-            <div class="car-card">
-                <img src="/assets/image/2025-nissan-leaf.png" alt="Nissan Leaf">
-                <p>Nissan Leaf</p>
-            </div>
-            <!-- Rivian R1T -->
-            <div class="car-card">
-                <img src="/assets/image/2025-rivian-r1t.png" alt="Rivian R1T">
-                <p>Rivian R1T</p>
-            </div>
-            <div class="cta-container">
-                <a href="/pages/bev-cars.html" class="cta-button">See More</a>
-            </div>   
-        </section>
-        
     </main>
+
+    <footer class="ev-footer">
+        <div class="container">
+            <p>&copy; 2025 EVera. All rights reserved.</p>
+            <a href="/pages/vehicles.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to EV Types</a>
+        </div>
+    </footer>
 </body>
 </html>

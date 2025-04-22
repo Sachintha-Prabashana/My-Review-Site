@@ -63,8 +63,8 @@ body {
     text-align: center;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
     transition: transform 0.3s ease;
-    width: 220px; /* Fixed Width */
-    height: 260px; /* Fixed Height */
+    width: 220px; 
+    height: 240px; 
     display: flex;
     flex-direction: column;
     align-items: center;
