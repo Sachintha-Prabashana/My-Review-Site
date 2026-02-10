@@ -1,149 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EV Topics - All in One</title>
-    <link rel="stylesheet" href="/style/main-layout.css">
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-        .ev-topic-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-        .ev-topic-item {
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: #FFFFFF;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-        }
-        .ev-topic-item:hover {
-            background-color: #0056b3;
-        }
-        section {
-            margin-bottom: 40px;
-            padding: 20px 5%;
-            background-color: #FFFFFF;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #007BFF;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EV Topics - All in One</title>
+  <link rel="stylesheet" href="/style/main-layout.css" />
+  <link rel="stylesheet" href="/style/ev-topics.css" />
+ 
 </head>
 <body>
-    <header class="header">
-        <h1>EV Topics - All in One</h1>
-        <nav class="nav">
-            <a href="/index.html">Home</a>
-            <a href="/pages/ev-overview.html">Introduction</a>
-        </nav>
-    </header>
-    <main>
-        <!-- Navigation Links for Topics -->
-        <div class="ev-topic-list">
-            <a href="#history" class="ev-topic-item">History of EVs</a>
-            <a href="#future" class="ev-topic-item">Future of EVs</a>
-            <a href="#policies" class="ev-topic-item">Government Policies</a>
-            <a href="#comparison" class="ev-topic-item">EVs vs. Traditional Cars</a>
-            <a href="#safety" class="ev-topic-item">EV Safety</a>
-            <a href="#sustainability" class="ev-topic-item">Sustainability</a>
-        </div>
+  <header class="header">
+    <h1>EV Topics - All in One</h1>
+    <nav class="nav">
+      <a href="/index.html">Home</a>
+      <a href="/pages/ev-overview.html">Introduction</a>
+    </nav>
+  </header>
 
-        <!-- History of EVs -->
-        <section id="history">
-            <h2>History of Electric Vehicles</h2>
-            <p>Electric vehicles (EVs) have a rich history dating back to the early 19th century. Here are some key milestones:</p>
-            <ul>
-                <li><strong>1830s-1850s:</strong> Early prototypes of electric carriages were developed, but they were impractical due to limited battery technology.</li>
-                <li><strong>1890s:</strong> EVs gained popularity in the United States and Europe, accounting for about one-third of all vehicles on the road.</li>
-                <li><strong>Early 20th Century:</strong> The invention of the electric starter for gasoline cars and mass production by companies like Ford led to a decline in EVs.</li>
-                <li><strong>1970s-1990s:</strong> The oil crises and growing environmental concerns revived interest in EVs. Automakers began experimenting with electric prototypes.</li>
-                <li><strong>2000s-Present:</strong> Advances in battery technology, particularly lithium-ion batteries, and the success of companies like Tesla have propelled EVs into the mainstream.</li>
-            </ul>
-            <p>Today, EVs are seen as a key solution to reducing greenhouse gas emissions and combating climate change.</p>
-        </section>
+  <main>
+    <div class="ev-topic-list">
+      <a href="#history" class="ev-topic-item">History of EVs</a>
+      <a href="#future" class="ev-topic-item">Future of EVs</a>
+      <a href="#policies" class="ev-topic-item">Government Policies</a>
+      <a href="#comparison" class="ev-topic-item">EVs vs. Traditional Cars</a>
+      <a href="#safety" class="ev-topic-item">EV Safety</a>
+      <a href="#sustainability" class="ev-topic-item">Sustainability</a>
+    </div>
 
-        <!-- Future of EVs -->
-        <section id="future">
-            <h2>Future of Electric Vehicles</h2>
-            <p>The future of EVs is bright, with exciting developments on the horizon. Here’s what to expect:</p>
-            <ul>
-                <li><strong>Autonomous Driving:</strong> EVs are at the forefront of self-driving technology, with companies like Tesla and Waymo leading the way.</li>
-                <li><strong>Solid-State Batteries:</strong> These next-generation batteries promise even greater energy density, faster charging, and improved safety.</li>
-                <li><strong>Renewable Energy Integration:</strong> EVs will increasingly be powered by renewable energy sources like solar and wind, further reducing their carbon footprint.</li>
-                <li><strong>Global Adoption:</strong> As governments implement stricter emissions regulations and offer incentives for EV purchases, adoption rates will continue to rise.</li>
-                <li><strong>Smart Grid Integration:</strong> EVs will play a key role in smart grids, allowing for bidirectional energy flow and grid stabilization.</li>
-            </ul>
-            <p>By 2030, it is estimated that EVs will make up over 50% of new car sales globally.</p>
-        </section>
+    <section id="history" class="ev-section">
+      <h2>History of Electric Vehicles</h2>
+      <p>Electric vehicles (EVs) have a rich history dating back to the early 19th century. Here are some key milestones:</p>
+      <ul>
+        <li><strong>1830s-1850s:</strong> Early prototypes of electric carriages were developed, but they were impractical due to limited battery technology.</li>
+        <li><strong>1890s:</strong> EVs gained popularity in the United States and Europe, accounting for about one-third of all vehicles on the road.</li>
+        <li><strong>Early 20th Century:</strong> The invention of the electric starter for gasoline cars and mass production by companies like Ford led to a decline in EVs.</li>
+        <li><strong>1970s-1990s:</strong> The oil crises and growing environmental concerns revived interest in EVs. Automakers began experimenting with electric prototypes.</li>
+        <li><strong>2000s-Present:</strong> Advances in battery technology, particularly lithium-ion batteries, and the success of companies like Tesla have propelled EVs into the mainstream.</li>
+      </ul>
+      <p>Today, EVs are seen as a key solution to reducing greenhouse gas emissions and combating climate change.</p>
+    </section>
 
-        <!-- Government Policies & Incentives -->
-        <section id="policies">
-            <h2>Government Policies & Incentives</h2>
-            <p>Governments worldwide are supporting EV adoption through various policies and incentives:</p>
-            <ul>
-                <li><strong>Tax Credits:</strong> Many countries offer tax credits or rebates for purchasing EVs. For example, the U.S. federal tax credit can be up to $7,500.</li>
-                <li><strong>Subsidies:</strong> Governments provide subsidies for EV manufacturers and charging infrastructure development.</li>
-                <li><strong>Emissions Regulations:</strong> Stricter emissions standards are pushing automakers to produce more EVs. For example, the European Union aims to ban the sale of new gasoline and diesel cars by 2035.</li>
-                <li><strong>Zero-Emission Zones:</strong> Cities like London and Amsterdam have implemented zero-emission zones where only EVs are allowed.</li>
-                <li><strong>Charging Infrastructure Investments:</strong> Governments are investing heavily in public charging networks to support EV adoption.</li>
-            </ul>
-            <p>These policies are crucial for accelerating the transition to electric mobility.</p>
-        </section>
+    <section id="future" class="ev-section">
+      <h2>Future of Electric Vehicles</h2>
+      <p>The future of EVs is bright, with exciting developments on the horizon. Here’s what to expect:</p>
+      <ul>
+        <li><strong>Autonomous Driving:</strong> EVs are at the forefront of self-driving technology, with companies like Tesla and Waymo leading the way.</li>
+        <li><strong>Solid-State Batteries:</strong> These next-generation batteries promise even greater energy density, faster charging, and improved safety.</li>
+        <li><strong>Renewable Energy Integration:</strong> EVs will increasingly be powered by renewable energy sources like solar and wind, further reducing their carbon footprint.</li>
+        <li><strong>Global Adoption:</strong> As governments implement stricter emissions regulations and offer incentives for EV purchases, adoption rates will continue to rise.</li>
+        <li><strong>Smart Grid Integration:</strong> EVs will play a key role in smart grids, allowing for bidirectional energy flow and grid stabilization.</li>
+      </ul>
+      <p>By 2030, it is estimated that EVs will make up over 50% of new car sales globally.</p>
+    </section>
 
-        <!-- EVs vs. Traditional Cars -->
-        <section id="comparison">
-            <h2>EVs vs. Traditional Cars</h2>
-            <p>EVs offer several advantages over traditional gasoline-powered vehicles:</p>
-            <ul>
-                <li><strong>Environmental Impact:</strong> EVs produce zero tailpipe emissions, reducing air pollution and greenhouse gas emissions.</li>
-                <li><strong>Cost Savings:</strong> Electricity is cheaper than gasoline, and EVs have fewer moving parts, resulting in lower maintenance costs.</li>
-                <li><strong>Performance:</strong> EVs provide instant torque, delivering smoother and faster acceleration compared to traditional cars.</li>
-                <li><strong>Energy Efficiency:</strong> EVs convert a higher percentage of energy from the power source to the wheels, making them more efficient.</li>
-                <li><strong>Quiet Operation:</strong> EVs are much quieter than traditional vehicles, reducing noise pollution.</li>
-            </ul>
-            <p>However, traditional cars still have some advantages, such as longer driving ranges and faster refueling times.</p>
-        </section>
+    <section id="policies" class="ev-section">
+      <h2>Government Policies & Incentives</h2>
+      <p>Governments worldwide are supporting EV adoption through various policies and incentives:</p>
+      <ul>
+        <li><strong>Tax Credits:</strong> Many countries offer tax credits or rebates for purchasing EVs. For example, the U.S. federal tax credit can be up to $7,500.</li>
+        <li><strong>Subsidies:</strong> Governments provide subsidies for EV manufacturers and charging infrastructure development.</li>
+        <li><strong>Emissions Regulations:</strong> Stricter emissions standards are pushing automakers to produce more EVs. For example, the European Union aims to ban the sale of new gasoline and diesel cars by 2035.</li>
+        <li><strong>Zero-Emission Zones:</strong> Cities like London and Amsterdam have implemented zero-emission zones where only EVs are allowed.</li>
+        <li><strong>Charging Infrastructure Investments:</strong> Governments are investing heavily in public charging networks to support EV adoption.</li>
+      </ul>
+      <p>These policies are crucial for accelerating the transition to electric mobility.</p>
+    </section>
 
-        <!-- EV Safety & Regulations -->
-        <section id="safety">
-            <h2>EV Safety & Regulations</h2>
-            <p>EVs are designed with safety in mind and undergo rigorous testing to ensure they meet high safety standards:</p>
-            <ul>
-                <li><strong>Crash Safety:</strong> EVs are built with reinforced structures to protect the battery and passengers in case of a crash.</li>
-                <li><strong>Battery Safety:</strong> Advanced battery management systems prevent overheating, fires, and other safety issues.</li>
-                <li><strong>Regulations:</strong> Governments have implemented safety standards specific to EVs, such as crash testing and battery disposal regulations.</li>
-                <li><strong>Low Center of Gravity:</strong> The placement of the battery pack gives EVs a low center of gravity, reducing the risk of rollovers.</li>
-                <li><strong>Emergency Response:</strong> First responders are trained to handle EV-specific emergencies, such as battery fires.</li>
-            </ul>
-            <p>Overall, EVs are as safe as, if not safer than, traditional vehicles.</p>
-        </section>
+    <section id="comparison" class="ev-section">
+      <h2>EVs vs. Traditional Cars</h2>
+      <p>EVs offer several advantages over traditional gasoline-powered vehicles:</p>
+      <ul>
+        <li><strong>Environmental Impact:</strong> EVs produce zero tailpipe emissions, reducing air pollution and greenhouse gas emissions.</li>
+        <li><strong>Cost Savings:</strong> Electricity is cheaper than gasoline, and EVs have fewer moving parts, resulting in lower maintenance costs.</li>
+        <li><strong>Performance:</strong> EVs provide instant torque, delivering smoother and faster acceleration compared to traditional cars.</li>
+        <li><strong>Energy Efficiency:</strong> EVs convert a higher percentage of energy from the power source to the wheels, making them more efficient.</li>
+        <li><strong>Quiet Operation:</strong> EVs are much quieter than traditional vehicles, reducing noise pollution.</li>
+      </ul>
+      <p>However, traditional cars still have some advantages, such as longer driving ranges and faster refueling times.</p>
+    </section>
 
-        <!-- Sustainability & Environmental Impact -->
-        <section id="sustainability">
-            <h2>Sustainability & Environmental Impact</h2>
-            <p>EVs play a crucial role in promoting sustainability and reducing environmental impact:</p>
-            <ul>
-                <li><strong>Reduced Emissions:</strong> EVs produce fewer greenhouse gas emissions compared to traditional vehicles, especially when powered by renewable energy.</li>
-                <li><strong>Energy Efficiency:</strong> EVs are more energy-efficient, converting a higher percentage of energy from the grid to power at the wheels.</li>
-                <li><strong>Battery Recycling:</strong> Recycling EV batteries reduces waste and recovers valuable materials like lithium and cobalt.</li>
-                <li><strong>Renewable Energy Integration:</strong> EVs can be charged using renewable energy sources like solar and wind, further reducing their carbon footprint.</li>
-                <li><strong>Lifecycle Analysis:</strong> Studies show that EVs have a lower environmental impact over their lifecycle compared to gasoline vehicles.</li>
-            </ul>
-            <p>By transitioning to EVs, we can significantly reduce our reliance on fossil fuels and combat climate change.</p>
-        </section>
-    </main>
-    <footer class="footer">
-        <p>&copy; 2023 EVera. All rights reserved.</p>
-    </footer>
+    <section id="safety" class="ev-section">
+      <h2>EV Safety & Regulations</h2>
+      <p>EVs are designed with safety in mind and undergo rigorous testing to ensure they meet high safety standards:</p>
+      <ul>
+        <li><strong>Crash Safety:</strong> EVs are built with reinforced structures to protect the battery and passengers in case of a crash.</li>
+        <li><strong>Battery Safety:</strong> Advanced battery management systems prevent overheating, fires, and other safety issues.</li>
+        <li><strong>Regulations:</strong> Governments have implemented safety standards specific to EVs, such as crash testing and battery disposal regulations.</li>
+        <li><strong>Low Center of Gravity:</strong> The placement of the battery pack gives EVs a low center of gravity, reducing the risk of rollovers.</li>
+        <li><strong>Emergency Response:</strong> First responders are trained to handle EV-specific emergencies, such as battery fires.</li>
+      </ul>
+      <p>Overall, EVs are as safe as, if not safer than, traditional vehicles.</p>
+    </section>
+
+    <section id="sustainability" class="ev-section">
+      <h2>Sustainability & Environmental Impact</h2>
+      <p>EVs play a crucial role in promoting sustainability and reducing environmental impact:</p>
+      <ul>
+        <li><strong>Reduced Emissions:</strong> EVs produce fewer greenhouse gas emissions compared to traditional vehicles, especially when powered by renewable energy.</li>
+        <li><strong>Energy Efficiency:</strong> EVs are more energy-efficient, converting a higher percentage of energy from the grid to power at the wheels.</li>
+        <li><strong>Battery Recycling:</strong> Recycling EV batteries reduces waste and recovers valuable materials like lithium and cobalt.</li>
+        <li><strong>Renewable Energy Integration:</strong> EVs can be charged using renewable energy sources like solar and wind, further reducing their carbon footprint.</li>
+        <li><strong>Lifecycle Analysis:</strong> Studies show that EVs have a lower environmental impact over their lifecycle compared to gasoline vehicles.</li>
+      </ul>
+      <p>By transitioning to EVs, we can significantly reduce our reliance on fossil fuels and combat climate change.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2023 EVera. All rights reserved.</p>
+  </footer>
 </body>
 </html>

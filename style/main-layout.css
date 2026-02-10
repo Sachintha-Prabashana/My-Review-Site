@@ -531,7 +531,11 @@
     }
     
     .footer-content {
-      grid-template-columns: 1fr;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      
     }
   }
   
@@ -558,5 +562,13 @@
       width: 100%;
       max-width: 300px;
       margin: 0 auto;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      
     }
   }
